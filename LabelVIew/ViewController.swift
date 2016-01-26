@@ -14,7 +14,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let attributeLabelView = AttributeLabelView(frame: CGRect(x: 30, y: 100, width: 300, height: 100))
-
         attributeLabelView.horizontalSpace = 10
         view.addSubview(attributeLabelView)
         attributeLabelView.selecteEnable = false
